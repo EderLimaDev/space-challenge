@@ -1,15 +1,17 @@
-import HeaderTitle from "../../components/HeaderTitle/HeaderTitle";
-import imagemBg from "../../assets/destination/background-destination-desktop.jpg"
 
+import HeaderTitle from "../../components/HeaderTitle/HeaderTitle";
+import { Moon } from "./SubPage-moon/Moon";
+import './style.css';
 
 export default function Destination() {
   return (
-    <div>
+    <div className="destination-page">
       <HeaderTitle 
         pageNumber='01'
         pageTitle="PICK YOUR DESTINATION"
-        backgroundImg={imagemBg}
       />
+      <Moon />
+    
     </div>
   )
 }

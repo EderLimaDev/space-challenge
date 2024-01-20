@@ -1,0 +1,20 @@
+
+.destination-page {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/destination/background-destination-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.destination-page ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+
+}

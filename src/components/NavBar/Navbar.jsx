@@ -9,14 +9,13 @@ function Navbar() {
             <div className="logoNav">
                 <img src={logotipo} alt="logotipo" />
             </div>
-            <div className='line'><hr /></div>
             
             <div className='navigation'>
                 <ul>
-                   <Link className='link' to='/'> <li><strong>00</strong>&nbsp; HOME</li></Link> 
-                   <Link className='link' to='destination'><li><strong>01</strong>&nbsp; DESTINATION</li></Link>
-                   <Link className='link' to='crew'><li><strong>02</strong>&nbsp; CREW</li></Link> 
-                   <Link className='link' to='technology'> <li><strong>03</strong>&nbsp; TECHNOLOGY</li></Link>
+                   <Link className='link' to='/'> <li><strong>00</strong>HOME</li></Link> 
+                   <Link className='link' to='destination'><li><strong>01</strong>DESTINATION</li></Link>
+                   <Link className='link' to='crew'><li><strong>02</strong>CREW</li></Link> 
+                   <Link className='link' to='technology'> <li><strong>03</strong>TECHNOLOGY</li></Link>
                 </ul>
 
             </div>
