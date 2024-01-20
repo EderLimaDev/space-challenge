@@ -1,0 +1,15 @@
+.titleMain {
+    width: 100%;
+    height: 100%;
+}
+
+.mainText {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 166.5px;
+    top: 212px;
+}
+.mainText h5 {
+    padding-right: 20px;
+}
