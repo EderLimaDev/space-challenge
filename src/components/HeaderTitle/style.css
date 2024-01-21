@@ -1,14 +1,30 @@
-.titleMain {
-    width: 100%;
-    height: 100%;
-}
 
 .mainText {
     display: flex;
-    width: 100%;
-    left: 166.5px;
-    top: 212px;
+    justify-content: center;
+    margin-top: 25%;
 }
-.mainText h5 {
+
+.mainText .page-number {
     padding-right: 20px;
+    color: rgba(151,151,151,0.4);
+}
+
+/* Tablet settings */
+
+@media (min-width: 48em) {
+    .mainText {
+        justify-content: start;
+        margin: 18% 0 0 2%;
+    }
+    .mainText .page-number {
+        display: inline;
+    }  
+}
+
+
+
+/* Desktop settings */
+
+@media (min-width: 52em) {
 }
