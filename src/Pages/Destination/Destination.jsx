@@ -1,8 +1,8 @@
 
 import { Outlet } from "react-router-dom";
-import { DestinationNav } from "../../components/DestinationNav/DestinationNav";
 import HeaderTitle from "../../components/HeaderTitle/HeaderTitle";
 import './style.css';
+import { DestinationNav } from "../../components/DestinationNav/DestinationNav";
 
 export default function Destination() {
   return (
@@ -11,6 +11,7 @@ export default function Destination() {
         pageNumber='01'
         pageTitle="PICK YOUR DESTINATION"
       />
+
       <DestinationNav />
       <Outlet />
 

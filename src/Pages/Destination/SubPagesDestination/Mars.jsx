@@ -7,6 +7,7 @@ export default function Mars() {
         <li>
           <img className="destination-image" src={imageMars} alt="" />
         </li>
+
         <li>
           <h1>MARS</h1>
         </li>
@@ -21,18 +22,27 @@ export default function Mars() {
           <hr />
         </li>
         <li>
-          <h5>Avg. DISTANCE</h5>
-        </li>
-        <li>
-          <h2>225 MIL. KM</h2>
-        </li>
-        <li>
-          <h5>EST. TRAVEL TIME</h5>
-        </li>
-        <li>
-          <h2>9 MONTHS</h2>
+          <ul className="destination-information-card">
+            <div>
+              <li>
+                <h5>Avg. DISTANCE</h5>
+              </li>
+              <li>
+                <h2>225 MIL. KM</h2>
+              </li>
+            </div>
+
+            <div>
+              <li>
+                <h5>EST. TRAVEL TIME</h5>
+              </li>
+              <li>
+                <h2>9 MONTHS</h2>
+              </li>
+            </div>
+          </ul>
         </li>
       </ul>
     </div>
   );
-};
+}

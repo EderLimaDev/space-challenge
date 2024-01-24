@@ -22,18 +22,27 @@ export default function Europe() {
           <hr />
         </li>
         <li>
-          <h5>Avg. DISTANCE</h5>
-        </li>
-        <li>
-          <h2>628 MIL. KM</h2>
-        </li>
-        <li>
-          <h5>EST. TRAVEL TIME</h5>
-        </li>
-        <li>
-          <h2>3 YEARS</h2>
+          <ul className="destination-information-card">
+            <div>
+              <li>
+                <h5>Avg. DISTANCE</h5>
+              </li>
+              <li>
+                <h2>628 MIL. KM</h2>
+              </li>
+            </div>
+
+            <div>
+              <li>
+                <h5>EST. TRAVEL TIME</h5>
+              </li>
+              <li>
+                <h2>3 YEARS</h2>
+              </li>
+            </div>
+          </ul>
         </li>
       </ul>
     </div>
   );
-};
+}

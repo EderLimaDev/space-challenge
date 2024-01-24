@@ -14,17 +14,23 @@ import Titan from './Pages/Destination/SubPagesDestination/Titan.jsx';
 
 function App() {
 
+
   return (
+
+
+
     <div className='mainPage'>
       <Navbar />
 
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/destination' element={<Destination />}>
+
           <Route path='moon' element={<Moon />} />
           <Route path='mars' element={<Mars />} />
           <Route path='europe' element={<Europe />} />
           <Route path='titan' element={<Titan />} />
+        
         </Route>
         
         

@@ -1,15 +1,17 @@
 import imageMoon from "../../../assets/destination/image-moon.png";
 
+
 export default function Moon() {
   return (
     <div>
       <ul className="destination-card">
-        <li>
-          <img className="destination-image" src={imageMoon} alt="" />
+        <li className="destination-image">
+          <img  src={imageMoon} alt="" />
         </li>
         <li>
           <h1>MOON</h1>
         </li>
+        
         <li>
           <p>
             See our planet as you’ve never seen it before. A perfect relaxing
@@ -23,7 +25,7 @@ export default function Moon() {
         </li>
 
         <li>
-          <div className="destination-information-card">
+          <ul className="destination-information-card">
             <div>
               <li>
                 <h5>Avg. DISTANCE</h5>
@@ -41,7 +43,7 @@ export default function Moon() {
                 <h2>3 DAYS</h2>
               </li>
             </div>
-          </div>
+          </ul>
         </li>
       </ul>
     </div>
