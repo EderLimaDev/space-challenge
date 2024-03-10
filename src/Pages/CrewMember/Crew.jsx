@@ -1,4 +1,8 @@
 import firstMemberImage from "../../assets/crew/image-douglas-hurley.webp"
+import secondMemberImage from "../../assets/crew/image-mark-shuttleworth.webp"
+import thirdMemberImage from "../../assets/crew/image-victor-glover.webp"
+import fourthMemberImage from "../../assets/crew/image-anousheh-ansari.webp"
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 import "./Style.css";
@@ -66,6 +70,7 @@ export default function Crew() {
         </SwiperSlide>
         <SwiperSlide>
           <CardCrew
+          crewMemberImg={secondMemberImage}
             name={secondMember.name}
             bio={secondMember.bio}
             role={secondMember.role}
@@ -73,6 +78,7 @@ export default function Crew() {
         </SwiperSlide>
         <SwiperSlide>
           <CardCrew
+            crewMemberImg={thirdMemberImage}
             name={thirdMember.name}
             bio={thirdMember.bio}
             role={thirdMember.role}
@@ -80,6 +86,7 @@ export default function Crew() {
         </SwiperSlide>
         <SwiperSlide>
           <CardCrew
+            crewMemberImg={fourthMemberImage}
             name={fourthMember.name}
             bio={fourthMember.bio}
             role={fourthMember.role}
