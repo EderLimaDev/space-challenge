@@ -16,10 +16,7 @@ function Home() {
             <div className='explore-btn'>
                <button>EXPLORE</button> 
             </div>
-             
-          
-            
-            
+
 
         </div>
     )

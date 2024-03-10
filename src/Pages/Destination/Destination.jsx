@@ -11,7 +11,7 @@ export default function Destination() {
         pageNumber='01'
         pageTitle="PICK YOUR DESTINATION"
       />
-
+    
       <DestinationNav />
       <Outlet />
 
